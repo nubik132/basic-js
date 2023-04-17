@@ -23,19 +23,7 @@ function createDreamTeam(members) {
   }
   return teamName.split("").sort().join("");
 }
-console.log(createDreamTeam([
-  ['David Abram'],
-  ['Robin Attfield'],
-  'Thomas Berry',
-  ['Paul R.Ehrlich'],
-  'donna Haraway',
-  ' BrIaN_gOodWiN  ',
-  {
-    0: 'Serenella Iovino'
-  },
-  'Erazim Kohak',
-  '  val_plumwood',
-]));
+
 module.exports = {
   createDreamTeam
 };
